@@ -19,3 +19,8 @@ URL backend dikonfigurasi pada satu file agar mudah diganti
 ketika menggunakan IP lokal atau ngrok.
 
 Lokasi file:
+utils/config.js
+
+Contoh konfigurasi:
+```js
+export const BASE_URL = "https://xxxx-xx-xx.ngrok-free.app";
